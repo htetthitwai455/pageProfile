@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+}
+
+.profile {
+    margin: 18px;
+    padding-top: 20px;
+    font-size: 40px;
+
+}
+
+.color {
+    color: white;
+}
+
+.profilebox {
+    display: flex;
+    justify-content: center;
+}
+
+.contectbox {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container {
+    text-align: center;
+    background-image: url(vs.jpg);
+    border-radius: 10px;
+    width: 2000px;
+    height: auto;
+}
+
+.htw {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.fs {
+    font-size: 18px;
+    color: white;
+}
+
+.bottonbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fontsize {
+    font-size: 18px;
+}
+.columm {
+    margin: 20px;
+
+}
+
+.box {
+    border-radius: 5px;
+    padding: 20px;
+    background-color:lightgrey ;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 600px;
+}
+
+.boxheader {
+   font-size: 20px;
+   margin-bottom: 16px;
+}
+
+.img {
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    margin: 20pxS;
+}
+
+.morebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imgbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button{
+    text-align: center;
+    background: linear-gradient(135deg,gold,white);
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 23px;
+}
