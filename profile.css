@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+}
+
+.profile {
+    margin: 18px 0;
+    padding-top: 20px;
+    font-size: 35px;
+    color: white;
+}
+
+
+.profilebox {
+    display: flex;
+    justify-content: center;
+}
+
+.contectbox {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container {
+    height: auto;
+    background-image: url(vs.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.htw-box {
+    width:12% ;
+    height: 12%;
+    margin-top: 50px;
+}
+
+.htw {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.fs {
+    font-size: 18px;
+    color: white;
+}
+
+.bottonbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fontsize {
+    font-size: 18px;
+}
+.columm {
+    margin: 20px;
+    width: 70%;
+}
+
+.box {
+    width: 95%;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:lightgrey ;
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+.boxheader {
+   font-size: 20px;
+   margin-bottom: 16px;
+}
+
+.img {
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20pxS;
+}
+
+.morebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imgbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttonBox {
+margin: 0 auto;
+text-align: center;
+
+}
+
+.button {
+    text-align: center;
+    background: linear-gradient(135deg,gold,white);
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 23px;
+}
