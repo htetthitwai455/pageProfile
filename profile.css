@@ -1,15 +1,37 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url(R.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.statusBar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.social {
+    margin-left: 20px;
+    margin-top: 0;
 }
 
 .main {
+    max-width: 1024px;
+    margin: 0 auto;
+    background: transparent 20px;
+    background-color: rgba(225, 255, 225, 0.7);
+    border-radius: 10px;
 }
 
 .profile {
     margin: 18px 0;
     padding-top: 20px;
     font-size: 35px;
-    color: white;
+    color: black;
 }
 
 
@@ -19,23 +41,26 @@ body {
 }
 
 .contectbox {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
 }
 
 .container {
     height: auto;
-    background-image: url(vs.jpg);
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    border-radius: 10px;
+    color: black;
+    padding-top: 10px;
+    
 }
 
 .htw-box {
-    width:12% ;
-    height: 12%;
+    max-width:120px ;
+    max-height: 120px;
     margin-top: 50px;
+}
+
+li {
+    margin: 0 20px;
+    color: black;
 }
 
 .htw {
@@ -46,13 +71,14 @@ body {
 
 .fs {
     font-size: 18px;
-    color: white;
+    color: black;
 }
 
 .bottonbox {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 .fontsize {
@@ -93,7 +119,11 @@ body {
 .imgbox {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.hideLogo {
+    display: none;
 }
 
 .buttonBox {
@@ -113,4 +143,26 @@ text-align: center;
     cursor: pointer;
     margin: 20px;
     font-size: 23px;
+}
+@media (max-width: 767px) {
+    .profilebox {
+        display: block;
+    }
+    .htw-box {
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .profile {
+        margin: 0 auto;
+        padding: 0;
+    } 
+    .bottonbox {
+        flex-wrap: wrap;
+    }
+    .contectbox {
+        text-align: center;
+    }
+    .statusBar {
+        display: none;
+    }
 }
