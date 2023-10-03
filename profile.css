@@ -134,7 +134,7 @@ text-align: center;
 
 .button {
     text-align: center;
-    background: linear-gradient(135deg,gold,white);
+    background: lightgray;
     border: 1px solid gray;
     padding: 5px;
     border-radius: 10px;
